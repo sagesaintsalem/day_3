@@ -44,5 +44,7 @@ def find_by_id(list, id):
             return found_id
     return None
 
-user = find_by_id(users, 5)
+desired_id = input("Please enter user id number: ")
+desired_id = int(desired_id)
+user = find_by_id(users, desired_id)
 print(user)

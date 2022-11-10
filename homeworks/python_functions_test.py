@@ -82,7 +82,7 @@ class TestPythonFunctionPractice(unittest.TestCase):
 
   def test_volume_of_cube(self):
     result = cube_volume(3) 
-    self.assertEqual(9, result)
+    self.assertEqual(27, result)
 
   #Given a String, return the String reversed
 

@@ -66,7 +66,7 @@ def number_to_short_month_name(month):
     return short_months[month]
 
 def cube_volume(length):
-    result = length * 3
+    result = length ** 3
     return result
 
 def reverse_string(string):
